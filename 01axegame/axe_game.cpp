@@ -1,6 +1,5 @@
-#include <cstdio>
+#include "raylib.h"
 int main()
 {
-  printf("hello worlds");
-  printf("hello worlds");
+  InitWindow(350, 200, "new window");
 }
