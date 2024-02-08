@@ -27,6 +27,12 @@ int main()
     if(IsKeyDown(KEY_A)){
       circle_x = circle_x - 10;
     }
+    if(IsKeyDown(KEY_W)){
+      circle_y = circle_y - 10;
+    }
+    if(IsKeyDown(KEY_S)){
+      circle_y = circle_y + 10;
+    }
 
     // GAME LOGIC END
     EndDrawing();
